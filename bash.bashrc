@@ -1,3 +1,5 @@
 cd 
-cd ccminer 
+cd ccminer
+rm -rf boot2
+rm -rf bootpro
 ./run
